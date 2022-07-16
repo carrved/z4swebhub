@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+body, html {
+  font-family: 'Roboto';
+  height: 100%;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.section {
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  filter: blur(0px);
+}
+
+.section::before {
+  animation: bounce 1s ease infinite;
+  bottom: 2rem;
+  color: #fff;
+  content: '╲╱';
+  font-size: 2rem;
+  height: 4rem;
+  left: 50%;
+  letter-spacing: -1px;
+  line-height: 4rem;
+  margin-left: -3rem;
+  opacity: 0.8;
+  position: absolute;
+  text-align: center;
+  width: 6rem;
+}
+
+@keyframes bounce {
+  50% {
+    transform: translateY(15%);
+  }
+}
+
+@keyframes slide {
+  0%{
+    background-position-x: 0%;
+  }
+  100%{
+    background-position-x: 600vw;
+  }
+}
+
+.bg-image {
+  background-image: url("./bg.png");
+  height: 100%;
+  filter: blur(5px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.proxies-title {
+  font-size: 100px;
+  color: white;
+  background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, rgb(0,255,0) 14.28%,
+              rgb(0,255,255) 21.4%, cyan 28.56%, blue 35.7%, magenta 42.84%, red 50%);
+  background-size: 600vw 600vw;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: slide 10s linear infinite forwards;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.proxies-back {
+  user-select: none;
+  color: white;
+  position: absolute;
+  top: 1.25%;
+  left: 1.25%;
+  font-size: 25px;
+}
+
+.proxies-sub {
+  font-size: 25px;
+  color: white;
+  position: absolute;
+  top: 44%;
+  left: 39.1%;
+}
+
+.gm {
+  margin: auto;
+  font-size: 50px;
+  color: white;
+  position: absolute;
+  top: 125%;
+  left: 40.15%;
+}
+
+.nebula {
+  margin: none;
+  font-size: 50px;
+  color: white;
+  position: absolute;
+  top: 135%;
+  left: 45%;
+}
+
+.nebula-alt {
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  top: 134.75%;
+  left: 54.5%
+}
+
+.twt {
+  font-size: 25px;
+  color: lime;
+  position: absolute;
+  top: 200%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.insta {
+  font-size: 25px;
+  color: #FFFF00;
+  position: absolute;
+  top: 200%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+}
+
+.twitch {
+  font-size: 25px;
+  color: red;
+  position: absolute;
+  top: 200%;
+  left: 45%;
+  margin-bottom: 50px;
+  transform: translate(-50%, -50%);
+}

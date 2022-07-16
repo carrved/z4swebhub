@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+body, html {
+  font-family: 'Roboto';
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.section {
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  filter: blur(0px);
+}
+
+.section::before {
+  animation: bounce 1s ease infinite;
+  bottom: 2rem;
+  color: #fff;
+  content: '╲╱';
+  font-size: 2rem;
+  height: 4rem;
+  left: 50%;
+  letter-spacing: -1px;
+  line-height: 4rem;
+  margin-left: -3rem;
+  opacity: 0.8;
+  position: absolute;
+  text-align: center;
+  width: 6rem;
+}
+
+.bg-image {
+  background-image: url("./bg.png");
+  height: 100%;
+  filter: blur(5px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centersub {
+  position: absolute;
+  top: 43.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+}
+
+.center h1{
+  user-select: none;
+  font-size: 100px;
+  color: white;
+  background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, rgb(0,255,0) 14.28%,
+              rgb(0,255,255) 21.4%, cyan 28.56%, blue 35.7%, magenta 42.84%, red 50%);
+  background-size: 600vw 600vw;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: slide 10s linear infinite forwards;
+}
+
+@keyframes slide {
+  0%{
+    background-position-x: 0%;
+  }
+  100%{
+    background-position-x: 600vw;
+  }
+}
+
+hr.border1 {
+  border-top: medium double #CCC;
+  overflow: visible;
+  padding: 2.5px;
+  background-color: white;
+  margin: 50px;
+  color: #CCC;
+  text-align: center;
+  border-radius: 50px;
+  position: absolute;
+  top: 125%;
+  width: 95%;
+}
+
+hr.footer-border {
+  border-top: medium double #CCC;
+  overflow: visible;
+  padding: 0.5px;
+  background-color: white;
+  margin: 50px;
+  color: #CCC;
+  text-align: center;
+  border-radius: 50px;
+  position: absolute;
+  top: 190%;
+  left: 34.5%;
+  width: 25%;
+}
+
+@keyframes bounce {
+  50% {
+    transform: translateY(15%);
+  }
+}
+
+.info-title {
+  user-select: none;
+  font-size: 100px;
+  color: lightgreen;
+  position: absolute;
+  top: 160%;
+  left: 15%;
+  filter: none;
+}
+
+.info-content {
+  font-size: 35px;
+  color: white;
+  position: absolute;
+  top: 175%;
+  left: 6%;
+}
+
+.proxies {
+  user-select: none;
+  font-size: 100px;
+  color: white;
+  background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, rgb(0,255,0) 14.28%,
+              rgb(0,255,255) 21.4%, cyan 28.56%, blue 35.7%, magenta 42.84%, red 50%);
+  background-size: 600vw 600vw;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: slide 10s linear infinite forwards;
+  position: absolute;
+  top: 110%;
+  left: 41.5%;
+}
+
+.games {
+  user-select: none;
+  font-size: 100px;
+  color: white;
+  background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, rgb(0,255,0) 14.28%,
+              rgb(0,255,255) 21.4%, cyan 28.56%, blue 35.7%, magenta 42.84%, red 50%);
+  background-size: 600vw 600vw;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: slide 10s linear infinite forwards;
+  position: absolute;
+  top: 110%;
+  left: 22.5%;
+}
+
+.websites {
+  user-select: none;
+  font-size: 100px;
+  color: white;
+  background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, rgb(0,255,0) 14.28%,
+              rgb(0,255,255) 21.4%, cyan 28.56%, blue 35.7%, magenta 42.84%, red 50%);
+  background-size: 600vw 600vw;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: slide 10s linear infinite forwards;
+  position: absolute;
+  top: 110%;
+  left: 61.5%;
+}
+
+.twt {
+  font-size: 25px;
+  color: lime;
+  position: absolute;
+  top: 200%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.insta {
+  font-size: 25px;
+  color: #FFFF00;
+  position: absolute;
+  top: 200%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+}
+
+.twitch {
+  font-size: 25px;
+  color: red;
+  position: absolute;
+  top: 200%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
