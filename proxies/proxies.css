@@ -73,6 +73,28 @@ body, html {
   transform: translate(-50%, -50%);
 }
 
+.title-new {
+	font-size: 100px;
+	color: white;
+	background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, lime 14.28%, rgb(0,255,255) 21.4%, cyan 28.56%, blue 35.7%, magenta 42.84%, red 50%);
+	background-size: 600vw 600vw;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	animation: slide 10s linear infinite forwards;
+}
+
+.category-header {
+	 background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, rgb(0,255,0) 14.28%,
+              rgb(0,255,255) 21.4%, cyan 28.56%, blue 35.7%, magenta 42.84%, red 50%);
+  background-size: 600vw 600vw;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: slide 10s linear infinite forwards;
+}
+
+.item {
+	color: white;
+}
 
 .proxies-back {
   user-select: none;
@@ -97,7 +119,16 @@ body, html {
   color: white;
   position: absolute;
   top: 125%;
-  left: 40.15%;
+  left: 41.15%;
+}
+
+.gmsub {
+	margin auto;
+	font:size: 20px;
+	color: grey;
+	position: absolute;
+	top: 124%;
+	left: 56%;
 }
 
 .nebula {
@@ -106,7 +137,7 @@ body, html {
   color: white;
   position: absolute;
   top: 135%;
-  left: 45%;
+  left: 45.2%;
 }
 
 .nebula-alt {
@@ -114,8 +145,10 @@ body, html {
   color: white;
   position: absolute;
   top: 134.75%;
-  left: 54.5%
+  left: 53.15%
 }
+
+
 
 .twt {
   font-size: 25px;
