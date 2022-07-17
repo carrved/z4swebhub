@@ -184,7 +184,7 @@ hr.footer-border {
   color: lime;
   position: absolute;
   top: 200%;
-  left: 50%;
+  left: 53%;
   transform: translate(-50%, -50%);
 }
 
@@ -193,7 +193,7 @@ hr.footer-border {
   color: #FFFF00;
   position: absolute;
   top: 200%;
-  left: 55%;
+  left: 57%;
   transform: translate(-50%, -50%);
 }
 
@@ -202,6 +202,19 @@ hr.footer-border {
   color: red;
   position: absolute;
   top: 200%;
-  left: 45%;
+  left: 48.5%;
   transform: translate(-50%, -50%);
+}
+
+.discord {
+	font-size: 25px;
+	color: #5865F2;
+	position: absolute;
+	top: 200%;
+	left: 43%;
+	transform: translate(-50%, -50%);
+}
+
+.test {
+	color: red;
 }
