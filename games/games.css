@@ -73,6 +73,19 @@ body, html {
   transform: translate(-50%, -50%);
 }
 
+.title-new {
+	font-size: 100px;
+	color: white;
+	background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, lime 14.28%, rgb(0,255,255) 21.4%, cyan 28.56%, blue 35.7%, magenta 42.84%, red 50%);
+	background-size: 600vw 600vw;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	animation: slide 10s linear infinite forwards;
+}
+
+.item {
+	color: white;
+}
 
 .games-back {
   user-select: none;
