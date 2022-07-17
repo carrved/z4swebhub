@@ -3,12 +3,13 @@
 body, html {
   font-family: 'Roboto';
   height: 100%;
+  background-color: dimgrey;
 }
 
 * {
     margin: 0px;
     padding: 0px;
-}
+	}
 
 .section {
   height: 100vh;
