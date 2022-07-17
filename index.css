@@ -144,9 +144,9 @@ hr.footer-border {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   animation: slide 10s linear infinite forwards;
-  position: absolute;
-  top: 110%;
-  left: 41.5%;
+/*  position: absolute; */
+/* top: 110%; */
+/*  left: 41.5%; */
 }
 
 .games {
