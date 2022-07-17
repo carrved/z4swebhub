@@ -87,6 +87,10 @@ body, html {
 	color: white;
 }
 
+.notice {
+	color: red;
+}
+
 .games-back {
   user-select: none;
   color: white;

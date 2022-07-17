@@ -96,6 +96,10 @@ body, html {
 	color: white;
 }
 
+.notice {
+	color: red;
+}
+
 .proxies-back {
   user-select: none;
   color: white;
